@@ -1,0 +1,19 @@
+{
+    "name": "ihorchyshkala/autoloader-php",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ihor Chyshkala",
+            "email": "ihor@chyshkala.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "scr/"
+        }
+
+    }
+}
